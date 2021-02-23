@@ -1,10 +1,9 @@
 .App {
   text-align: center;
-  background: rgb(33,33,33);
-  background: linear-gradient(122deg, rgba(33,33,33,1) 1%, rgba(66,133,244,1) 100%);
+  background: rgb(5,9,17);
+  background: linear-gradient(0deg, rgba(5,9,17,1) 0%, rgba(66,133,244,1) 60%);
 }
 
-.Nav{
-  justify-content: center;
+.menu{
+  background-color: rgba(66,133,244,1);
 }
-
