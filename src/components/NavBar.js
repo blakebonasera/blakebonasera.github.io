@@ -22,7 +22,7 @@ const Navigation = (props) => {
 
     return (
         <div className='Nav'>
-            <Navbar fluid color="light" light expand="md">
+            <Navbar fluid color="mute" dark expand="md">
                 <NavbarBrand href="/">BB</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
@@ -37,13 +37,12 @@ const Navigation = (props) => {
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
-                                Options
+                                Projects
                             </DropdownToggle>
                             <DropdownMenu right>
-                                <DropdownItem>Option 1</DropdownItem>
-                                <DropdownItem>Option 2</DropdownItem>
-                                
-                                <DropdownItem>Reset</DropdownItem>
+                                <DropdownItem>4 Sale</DropdownItem>
+                                <DropdownItem>Apartment Connect</DropdownItem>
+                                <DropdownItem>Favorite Movies App</DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </Nav>

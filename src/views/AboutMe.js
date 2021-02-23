@@ -13,24 +13,24 @@ import Nala from '../Nala.JPG';
 
 const AboutMe = (props) => {
     return (
-        <div>
-            <Card>
+        <Container fluid>
+            <Card style={{backgroundColor:''}}>
                 <CardBody>
                     <CardTitle tag="h3">About Me</CardTitle>
                 </CardBody>
                 <Container>
                     <Row>
-                        <Col xs='6'>
+                        <Col sm='6'>
                             <img
-                                style={{border: '2px black solid', margin:'0px auto'}}
+                                style={{border: '2px black solid', margin:'0px auto', borderRadius: '10px'}}
                                 width="50%"
                                 src={Me}
                                 alt="Image of myself"
                             />
                         </Col>
-                        <Col xs='6'>
+                        <Col sm='6'>
                         <img
-                                style={{border: '2px black solid', margin:'0px auto'}}
+                                style={{border: '2px black solid', margin:'0px auto', borderRadius: '10px' }}
                                 width="50%"
                                 src={Nala}
                                 alt="Image of myself"
@@ -50,7 +50,7 @@ const AboutMe = (props) => {
                     
                 </CardBody>
             </Card>
-        </div>
+        </Container>
     );
 };
 

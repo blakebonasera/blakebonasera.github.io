@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: rgb(33,33,33);
+  background: linear-gradient(122deg, rgba(33,33,33,1) 1%, rgba(66,133,244,1) 100%);
 }
 
 .Nav{
