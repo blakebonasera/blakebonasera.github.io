@@ -14,7 +14,7 @@ import Nala from "../Nala.JPG";
 const AboutMe = (props) => {
     return (
         <Container fluid>
-            <Card style={{ backgroundColor: "#ffffcc" }}>
+            <Card className='card' style={{ backgroundColor: "#ffffcc" }}>
                 <CardBody>
                     <CardTitle tag="h3">About Me</CardTitle>
                 </CardBody>
