@@ -1,6 +1,6 @@
 import React from "react";
-import '../App.css';
-
+import "../App.css";
+import ResumeImg from "../resumePic.png";
 import ResumePic from "../resume.JPG";
 import { Link } from "@reach/router";
 import {
@@ -19,20 +19,17 @@ const Resume = (props) => {
         <Container>
             <Row>
                 <Col xs="12">
-                    
-                        <CardImg
-                            top
-                            style={{
-                                width: "100%",
-                                border: "2px black solid",
-                                borderRadius: "5px",
-                                margin: '0px auto'
-                            }}
-                            src={ResumePic}
-                            alt="Card image cap"
-                        />
-                        
-                    
+                    <CardImg
+                        top
+                        style={{
+                            width: "100%",
+                            border: "5px black solid",
+                            borderRadius: "5px",
+                            margin: "0px auto",
+                        }}
+                        src={ResumePic}
+                        alt="Blake Bonasera Resume"
+                    />
                 </Col>
             </Row>
         </Container>
