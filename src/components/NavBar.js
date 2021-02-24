@@ -28,7 +28,7 @@ const Navigation = (props) => {
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 0 }}>
                     <Navbar fluid color="mute" dark expand="md">
-                        <NavbarBrand href="/home">BB</NavbarBrand>
+                        <NavbarBrand href="/">BB</NavbarBrand>
                         <NavbarToggler onClick={toggle} />
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="mr-auto" navbar>
