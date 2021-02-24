@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css';
-
+import ResumeImg from '../resumePic.png';
 import ResumePic from "../resume.JPG";
 import { Link } from "@reach/router";
 import {

@@ -27,7 +27,7 @@ const Navigation = (props) => {
         <Container>
             <Row>
                 <Col sm="12" md={{ size: 6, offset: 0 }}>
-                    <Navbar fluid color="mute" dark expand="md">
+                    <Navbar fluid  color='mute' dark expand="md">
                         <NavbarBrand href="/">BB</NavbarBrand>
                         <NavbarToggler onClick={toggle} />
                         <Collapse isOpen={isOpen} navbar>
@@ -49,19 +49,19 @@ const Navigation = (props) => {
                                     <DropdownToggle nav caret>
                                         Projects
                                     </DropdownToggle>
-                                    <DropdownMenu className="Menu" right>
+                                    <DropdownMenu right>
                                         <DropdownItem>
                                             <Link to="/4sale">4 Sale</Link>
                                         </DropdownItem>
                                         <DropdownItem>
-                                            <NavLink to="/apt">
+                                            <Link to="/apt">
                                                 Apartment Connect
-                                            </NavLink>
+                                            </Link>
                                         </DropdownItem>
                                         <DropdownItem>
-                                            <NavLink to="/movie">
+                                            <Link to="/movie">
                                                 Favorite Movies App
-                                            </NavLink>
+                                            </Link>
                                         </DropdownItem>
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
