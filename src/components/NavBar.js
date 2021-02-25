@@ -58,11 +58,6 @@ const Navigation = (props) => {
                                                 Apartment Connect
                                             </Link>
                                         </DropdownItem>
-                                        <DropdownItem>
-                                            <Link to="/movie">
-                                                Favorite Movies App
-                                            </Link>
-                                        </DropdownItem>
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
                             </Nav>

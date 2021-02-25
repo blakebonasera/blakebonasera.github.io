@@ -9,14 +9,15 @@ import {
     Col,
 } from "reactstrap";
 import AboutCarousel from "../components/AboutCarousel";
-import Me from "../me.jpeg";
-import Nala from "../Nala.JPG";
-import Cda from "../Cda.jpg";
+// import Me from "../me.jpeg";
+// import Nala from "../Nala.jpg";
+// import Cda from "../Cda.jpg";
 
 const AboutMe = (props) => {
     return (
-        <Container fluid>
-            <Card className="card">
+        <Container>
+            <AboutCarousel />
+            <Card>
                 <CardBody>
                     <CardTitle tag="h3">About Me</CardTitle>
                 </CardBody>
@@ -51,13 +52,6 @@ const AboutMe = (props) => {
                                     </strong>
                                 </CardText>
                             </CardBody>
-                        </Col>
-                    </Row>
-                </Container>
-                <Container>
-                    <Row>
-                        <Col sm="12" md={{ size: 12, offset: 0 }}>
-                            <AboutCarousel />
                         </Col>
                     </Row>
                 </Container>
