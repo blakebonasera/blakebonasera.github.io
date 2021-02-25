@@ -10,9 +10,9 @@ export class AboutCarousel extends Component {
             <Carousel>
                 <Carousel.Item>
                     <img
-                        className=" w-100"
                         style={{
-                            height: "auto",
+                            height: "1000px",
+                            width: "auto",
                             border: "5px white solid",
                             borderRadius: "10px",
                         }}
@@ -24,9 +24,9 @@ export class AboutCarousel extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="w-100"
                         style={{
-                            height: "auto",
+                            height: "1000px",
+                            width: "auto",
                             border: "5px white solid",
                             borderRadius: "10px",
                         }}
@@ -38,9 +38,9 @@ export class AboutCarousel extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className=" w-100"
                         style={{
-                            height: "auto",
+                            height: "1000px",
+                            width: "auto",
                             border: "5px white solid",
                             borderRadius: "10px",
                         }}

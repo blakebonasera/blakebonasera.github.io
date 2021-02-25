@@ -1,15 +1,28 @@
 import React from "react";
-import { Card, Button, CardTitle, CardText, Row, Col } from "reactstrap";
+import "../App.css";
+import { Container, Row, Col } from "reactstrap";
 
 const Footer = (props) => {
     return (
-        <Row>
-            <Col mute sm="12" md={{ size: 6, offset: 3}}>
-                <Card mute>
-                    <h3></h3>
-                </Card>
-            </Col>
-        </Row>
+        <Container fixed="bottom" mute>
+            <Row fluid mute>
+                <Col xs="12">
+                    <h4>
+                        <i className="fa fa-envelope-o footer  white-text">
+                            {" "}
+                            : blakebonasera@gmail.com
+                        </i>
+                    </h4>
+
+                    <h4>
+                        <i class="fas fa-phone footer white-text">
+                            {" "}
+                            : (208)819-6239
+                        </i>
+                    </h4>
+                </Col>
+            </Row>
+        </Container>
     );
 };
 

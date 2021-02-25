@@ -26,11 +26,11 @@ const Navigation = (props) => {
     return (
         <Container>
             <Row>
-                <Col sm="12" md={{ size: 6, offset: 0 }}>
-                    <Navbar fluid color="mute" dark expand="md">
+                <Col sm="12" md={{ size: 12, offset: 0 }}>
+                    <Navbar fluid fixed='' color="mute" dark expand="md">
                         <NavbarBrand href="/">BB</NavbarBrand>
                         <NavbarToggler onClick={toggle} />
-                        <Collapse isOpen={isOpen} navbar>
+                        <Collapse isOpen={isOpen} light navbar>
                             <Nav className="mr-auto" navbar>
                                 <NavItem>
                                     <NavLink href="https://www.linkedin.com/in/blakebonasera/">
@@ -51,10 +51,11 @@ const Navigation = (props) => {
                                     </DropdownToggle>
                                     <DropdownMenu right>
                                         <DropdownItem>
-                                            <Link to="/4sale">4 Sale</Link>
+                                            <Link className="btn" to="/4sale">4 Sale                               
+                                            </Link>
                                         </DropdownItem>
                                         <DropdownItem>
-                                            <Link to="/apt">
+                                            <Link className='btn' to="/apt">
                                                 Apartment Connect
                                             </Link>
                                         </DropdownItem>

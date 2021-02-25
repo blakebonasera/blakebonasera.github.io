@@ -22,7 +22,8 @@ const Resume = (props) => {
                     <CardImg
                         top
                         style={{
-                            width: "100%",
+                            height: "100%",
+                            width: 'auto',
                             border: "5px black solid",
                             borderRadius: "5px",
                             margin: "0px auto",
