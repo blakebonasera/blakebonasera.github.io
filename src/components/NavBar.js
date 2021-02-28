@@ -27,10 +27,10 @@ const Navigation = (props) => {
         <Container>
             <Row>
                 <Col sm="12" md={{ size: 12, offset: 0 }}>
-                    <Navbar fluid fixed='' color="mute" dark expand="md">
+                    <Navbar color="mute" dark expand="md">
                         <NavbarBrand href="/">BB</NavbarBrand>
                         <NavbarToggler onClick={toggle} />
-                        <Collapse isOpen={isOpen} light navbar>
+                        <Collapse isOpen={isOpen} navbar>
                             <Nav className="mr-auto" navbar>
                                 <NavItem>
                                     <NavLink href="https://www.linkedin.com/in/blakebonasera/">

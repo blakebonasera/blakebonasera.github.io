@@ -11,8 +11,8 @@ import "./App.css";
 function App() {
     return (
         <div className="App">
-            <Navigation />
             <Jumbo />
+            
             <Router>
                 <AboutMe path="/" />
                 <Resume path="/resume" />

@@ -11,43 +11,40 @@ export class AboutCarousel extends Component {
                 <Carousel.Item>
                     <img
                         style={{
-                            height: "1000px",
+                            maxWidth: "100%",
                             width: "auto",
-                            border: "5px white solid",
+                            border: "5px black solid",
                             borderRadius: "10px",
                         }}
                         src={Me}
                     />
-                    <Carousel.Caption>
-                        <h3>Photo of myself</h3>
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         style={{
-                            height: "1000px",
+                            maxWidth: "100%",
                             width: "auto",
-                            border: "5px white solid",
+                            border: "5px black solid",
                             borderRadius: "10px",
                         }}
                         src={Nala}
                     />
                     <Carousel.Caption>
-                        <h3>My dog Nala</h3>
+                        <h3>Nala</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         style={{
-                            height: "1000px",
+                            maxWidth: "100%",
                             width: "auto",
-                            border: "5px white solid",
+                            border: "5px black solid",
                             borderRadius: "10px",
                         }}
                         src={cda}
                     />
                     <Carousel.Caption>
-                        <h3>My hometown Coeur d' Alene, Idaho</h3>
+                        <h3>Coeur d' Alene, Idaho</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

@@ -4,9 +4,11 @@ import { Container, Row, Col } from "reactstrap";
 
 const Footer = (props) => {
     return (
-        <Container fixed="bottom" mute>
+        <Container style={{ background: "#4285f4" }} fluid fixed="bottom" mute>
+            
             <Row fluid mute>
                 <Col xs="12">
+                <br/>
                     <h4>
                         <i className="fa fa-envelope-o footer  white-text">
                             {" "}
@@ -20,6 +22,7 @@ const Footer = (props) => {
                             : (208)819-6239
                         </i>
                     </h4>
+                    <br/>
                 </Col>
             </Row>
         </Container>

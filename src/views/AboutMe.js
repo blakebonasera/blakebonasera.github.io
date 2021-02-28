@@ -7,13 +7,13 @@ const AboutMe = (props) => {
         <Container>
             <Row>
                 <Col sm="12" md={{ size: 12, offset: 0 }}>
-                    <h3 className="white-text">About Me</h3>
+                    <h3>About Me</h3>
                 </Col>
             </Row>
 
             <Row>
                 <Col sm="12" md={{ size: 12, offset: 0 }}>
-                    <h6 className="white-text">
+                    <h6>
                         Passionate full stack developer with a robust background
                         in customer service and relationship management. <br />
                         I love nothing more than finding elegant, efficient and
