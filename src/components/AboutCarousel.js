@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Me from "../me.JPG";
-import Nala from "../Nala.jpg";
-import cda from "../Cda.jpg";
+import Me from "../About/me.JPG";
+import Nala from "../About/Nala.jpg";
+import cda from "../About/Cda.jpg";
 import Carousel from "react-bootstrap/Carousel";
 
 export class AboutCarousel extends Component {

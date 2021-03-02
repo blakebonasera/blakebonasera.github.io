@@ -6,7 +6,7 @@ import "../App.css";
 const AboutMe = (props) => {
     return (
         <Spring from={{opacity:0, marginTop: -2000}} to={{opacity:1, marginTop:0}} config={{delay: 100}}>
-            {props => (
+            {(props) => (
                 <div style={props}>
 
         <Container>

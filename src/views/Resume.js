@@ -22,6 +22,12 @@ const Resume = () => {
                                     src={ResumePic}
                                     alt="Blake Bonasera Resume"
                                 />
+                                
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                            <br />
                             </Col>
                         </Row>
                     </div>

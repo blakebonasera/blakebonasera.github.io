@@ -2,8 +2,8 @@ import React from "react";
 import Jumbo from "./views/Jumbotron";
 import AboutMe from "./views/AboutMe";
 import Resume from "./views/Resume";
-import Sale from './views/4sale';
-import Apartment from './views/AptCon';
+import ForSale from './views/4Sale';
+import Apartment from './components/AptConCarousel';
 import Footer from './views/Footer';
 import { Router } from "@reach/router";
 import "./App.css";
@@ -16,7 +16,7 @@ function App() {
                 <AboutMe path="/" />
                 <Resume path="/resume" />
                 <Apartment path="/apt" />
-                <Sale path="/4sale" />
+                <ForSale path="/4sale" />
             </Router>
             <Footer />
         </div>
