@@ -11,7 +11,7 @@ import { Container, Row, Col } from "reactstrap";
 export class Sale extends Component {
     render() {
         return (
-            <Container fluid>
+            <Container >
                 <Row>
                     <Col xs="12">
                         <h3>4 Sale</h3>

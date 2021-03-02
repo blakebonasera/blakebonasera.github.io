@@ -1,9 +1,14 @@
 import React from "react";
-import { CardTitle, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import AboutCarousel from "../components/AboutCarousel";
+import { Spring } from 'react-spring/renderprops';
 import "../App.css";
 const AboutMe = (props) => {
     return (
+        <Spring from={{opacity:0, marginTop: -2000}} to={{opacity:1, marginTop:0}} config={{delay: 100}}>
+            {props => (
+                <div style={props}>
+
         <Container>
             <Row>
                 <Col sm="12" md={{ size: 12, offset: 0 }}>
@@ -30,7 +35,7 @@ const AboutMe = (props) => {
                 </Col>
             </Row>
 
-            <Container mute>
+            <Container >
                 <Row>
                     <Col xs="12">
                         <br />
@@ -38,7 +43,7 @@ const AboutMe = (props) => {
                 </Row>
             </Container>
             <AboutCarousel />
-            <Container mute>
+            <Container >
                 <Row>
                     <Col xs="12">
                         <br />
@@ -46,6 +51,9 @@ const AboutMe = (props) => {
                 </Row>
             </Container>
         </Container>
+                </div>
+            )}
+        </Spring>
     );
 };
 

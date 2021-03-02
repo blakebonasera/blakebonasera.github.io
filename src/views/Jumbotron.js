@@ -3,7 +3,7 @@ import "../App.css";
 import Navigation from '../components/NavBar';
 import { Jumbotron, Container } from "reactstrap";
 
-const Jumbo = (props) => {
+const Jumbo = () => {
     return (
         <div>
             <Jumbotron   style={{ background: "#4285f4" }} >
