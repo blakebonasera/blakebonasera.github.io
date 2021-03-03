@@ -3,7 +3,7 @@ import Jumbo from "./views/Jumbotron";
 import AboutMe from "./views/AboutMe";
 import Resume from "./views/Resume";
 import ForSale from './views/4sale';
-import Apartment from './components/AptConCarousel';
+import AptCon from './views/AptCon';
 import Footer from './views/Footer';
 import { Router } from "@reach/router";
 import "./App.css";
@@ -15,7 +15,7 @@ function App() {
             <Router>
                 <AboutMe path="/" />
                 <Resume path="/resume" />
-                <Apartment path="/apt" />
+                <AptCon path="/apt" />
                 <ForSale path="/4sale" />
             </Router>
             <Footer />
