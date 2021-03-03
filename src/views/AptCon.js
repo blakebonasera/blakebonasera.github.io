@@ -15,7 +15,7 @@ const AptCon = () => {
                     <Container>
                         <Row>
                             <Col xs="12">
-                                <h3>Apartment Connect</h3>
+                                <h3 className='text'>Apartment Connect</h3>
                             </Col>
                         </Row>
                         <Row>

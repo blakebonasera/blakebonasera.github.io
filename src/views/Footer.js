@@ -9,15 +9,15 @@ const Footer = (props) => {
             <Row >
                 <Col xs="12">
                 <br/>
-                    <h4>
+                    <h4 className='text'>
                         <i className="fa fa-envelope-o footer  white-text">
                             {" "}
                             : blakebonasera@gmail.com
                         </i>
                     </h4>
 
-                    <h4>
-                        <i className="fas fa-phone footer white-text">
+                    <h4 className='text'>
+                        <i className="fas fa-phone footer  white-text">
                             {" "}
                             : (208)819-6239
                         </i>

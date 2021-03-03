@@ -31,3 +31,16 @@
     background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
     background: rgba(204, 204, 204, 0.75);
 }
+
+.quote {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+.text {
+    font-family: 'Roboto Slab', serif;
+}
+
+.title {
+    font-family: 'Roboto Slab', serif;
+}

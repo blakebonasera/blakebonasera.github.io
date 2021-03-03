@@ -33,7 +33,7 @@ export class AboutCarousel extends Component {
                             src={Nala}
                         />
                         <Carousel.Caption className="content">
-                            <h3 className="black-text">Nala</h3>
+                            <h3 className="black-text text">Nala</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -47,7 +47,7 @@ export class AboutCarousel extends Component {
                             src={cda}
                         />
                         <Carousel.Caption className="content">
-                            <h3 className="black-text">
+                            <h3 className="black-text text">
                                 Coeur d' Alene, Idaho
                             </h3>
                         </Carousel.Caption>

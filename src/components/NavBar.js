@@ -33,34 +33,34 @@ const Navigation = (props) => {
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="mr-auto" navbar>
                                 <NavItem className="btn">
-                                    <NavLink href="https://www.linkedin.com/in/blakebonasera/">
+                                    <NavLink className='text' href="https://www.linkedin.com/in/blakebonasera/">
                                         LinkedIn
                                     </NavLink>
                                 </NavItem>
                                 <NavItem className="btn">
-                                    <NavLink href="https://github.com/blakebonasera">
+                                    <NavLink className='text' href="https://github.com/blakebonasera">
                                         GitHub
                                     </NavLink>
                                 </NavItem>
-                                <NavItem className="btn">
-                                    <NavLink href="/resume">Resume</NavLink>
+                                <NavItem  className="btn">
+                                    <NavLink className='text' href="/resume">Resume</NavLink>
                                 </NavItem>
                                 <UncontrolledDropdown
                                     className="btn"
                                     nav
                                     inNavbar
                                 >
-                                    <DropdownToggle className="btn" nav caret>
+                                    <DropdownToggle className="btn text" nav caret>
                                         Projects
                                     </DropdownToggle>
                                     <DropdownMenu right>
                                         <DropdownItem>
-                                            <Link className="btn" to="/4sale">
+                                            <Link className="btn text" to="/4sale">
                                                 4 Sale
                                             </Link>
                                         </DropdownItem>
                                         <DropdownItem>
-                                            <Link className="btn" to="/apt">
+                                            <Link className="btn text" to="/apt">
                                                 Apartment Connect
                                             </Link>
                                         </DropdownItem>

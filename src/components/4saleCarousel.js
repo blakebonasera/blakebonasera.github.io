@@ -25,10 +25,10 @@ export class Sale extends Component {
                             alt="LoginReg"
                         />
                         <Carousel.Caption className="content">
-                            <h3 className="black-text">
+                            <h3 className="black-text text">
                                 Login and Registration
                             </h3>
-                            <p className="black-text">
+                            <p className="black-text text">
                                 Seemless login and registration with bcrypt for
                                 hashing passwords in database.
                             </p>
@@ -47,10 +47,10 @@ export class Sale extends Component {
                         />
 
                         <Carousel.Caption className="content">
-                            <h3 className="black-text">
+                            <h3 className="black-text text">
                                 The Dashboard of 4Sale
                             </h3>
-                            <p className="black-text">
+                            <p className="black-text text">
                                 Allows users to click on their profile and see
                                 their listings and favorited items, as well as
                                 allows users to see new listings from all users.
@@ -70,8 +70,8 @@ export class Sale extends Component {
                         />
 
                         <Carousel.Caption className="content">
-                            <h3 className="black-text">New Listing Page</h3>
-                            <p className="black-text">
+                            <h3 className="black-text text">New Listing Page</h3>
+                            <p className="black-text text">
                                 Form used to allow users to submit their item
                                 they want to sell.
                             </p>
@@ -90,8 +90,8 @@ export class Sale extends Component {
                         />
 
                         <Carousel.Caption className="content">
-                            <h3 className="black-text">Item page</h3>
-                            <p className="black-text">
+                            <h3 className="black-text text">Item page</h3>
+                            <p className="black-text text">
                                 Allows users to leave a comment, favorite and
                                 email the selller. If User created the listing
                                 they are able to update the listing from the
@@ -112,8 +112,8 @@ export class Sale extends Component {
                         />
 
                         <Carousel.Caption className="content">
-                            <h3 className="black-text">User Page</h3>
-                            <p className="black-text">
+                            <h3 className="black-text text">User Page</h3>
+                            <p className="black-text text">
                                 Allows users to see their listings as well as
                                 allows the logged in user to view items they are
                                 watching.

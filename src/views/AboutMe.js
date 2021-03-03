@@ -6,8 +6,8 @@ import "../App.css";
 const AboutMe = (props) => {
     return (
         <Spring
-            from={{ opacity: 0, marginTop: -2000 }}
-            to={{ opacity: 1, marginTop: 0 }}
+            from={{ opacity: 0, marginBottom: -2000 }}
+            to={{ opacity: 1, marginBottom: 0 }}
             config={{ delay: 100 }}
         >
             {(props) => (
@@ -15,13 +15,13 @@ const AboutMe = (props) => {
                     <Container>
                         <Row>
                             <Col sm="12" md={{ size: 12, offset: 0 }}>
-                                <h3>About Me</h3>
+                                <h3 className='text'>About Me</h3>
                             </Col>
                         </Row>
 
                         <Row>
                             <Col sm="12" md={{ size: 12, offset: 0 }}>
-                                <h6>
+                                <h6 className='text'>
                                     Passionate full stack developer with a
                                     robust background in customer service and
                                     relationship management. <br />
