@@ -3,6 +3,7 @@ import Me from "../About/me.JPG";
 import Nala from "../About/Nala.jpg";
 import cda from "../About/Cda.jpg";
 import Carousel from "react-bootstrap/Carousel";
+import '../App.css';
 
 export class AboutCarousel extends Component {
     render() {
@@ -29,8 +30,8 @@ export class AboutCarousel extends Component {
                         }}
                         src={Nala}
                     />
-                    <Carousel.Caption>
-                        <h3>Nala</h3>
+                    <Carousel.Caption className='content'>
+                        <h3 className='black-text'>Nala</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -43,8 +44,8 @@ export class AboutCarousel extends Component {
                         }}
                         src={cda}
                     />
-                    <Carousel.Caption>
-                        <h3>Coeur d' Alene, Idaho</h3>
+                    <Carousel.Caption className='content'>
+                        <h3 className='black-text'>Coeur d' Alene, Idaho</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
