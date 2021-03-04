@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Me from "../About/me.JPG";
+import Me from "../About/me.jpg";
 import Nala from "../About/Nala.jpg";
 import cda from "../About/Cda.jpg";
 import Carousel from "react-bootstrap/Carousel";

@@ -16,6 +16,7 @@ import {
     Row,
     Col,
 } from "reactstrap";
+import RubberBand from 'react-reveal/RubberBand';
 import { Link } from "@reach/router";
 
 const Navigation = (props) => {
@@ -26,9 +27,10 @@ const Navigation = (props) => {
     return (
         <Container>
             <Row>
+                <RubberBand top cascade>
                 <Col sm="12" md={{ size: 12, offset: 0 }}>
                     <Navbar color="mute" dark expand="md">
-                        <NavbarBrand href="/">BB</NavbarBrand>
+                        <NavbarBrand className='text' href="/">BB</NavbarBrand>
                         <NavbarToggler onClick={toggle} />
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="mr-auto" navbar>
@@ -70,6 +72,7 @@ const Navigation = (props) => {
                         </Collapse>
                     </Navbar>
                 </Col>
+                </RubberBand>
             </Row>
         </Container>
     );

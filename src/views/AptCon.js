@@ -8,7 +8,7 @@ const AptCon = () => {
         <Spring
             from={{ opacity: 0, marginBottom: -1000 }}
             to={{ opacity: 1, marginBottom: 0 }}
-            config={{ delay: 100 }}
+            
         >
             {(props) => (
                 <div style={props}>
