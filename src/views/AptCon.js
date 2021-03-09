@@ -15,7 +15,7 @@ const AptCon = () => {
                     <Container>
                         <Row>
                             <Col xs="12">
-                                <h3 className='text'><a href='http://18.218.231.53/'>Apartment Connect</a></h3>
+                                <h3 className='text white-text'>Apartment Connect</h3>
                             </Col>
                         </Row>
                         <Row>

@@ -3,56 +3,64 @@ import Me from "../About/me.jpg";
 import Nala from "../About/Nala.jpg";
 import cda from "../About/Cda.jpg";
 import Carousel from "react-bootstrap/Carousel";
-import { Container } from "reactstrap";
+import Rotate from 'react-reveal/Rotate';
+import { Container, Row, Col } from "reactstrap";
 import "../App.css";
 
 export class AboutCarousel extends Component {
     render() {
         return (
             <Container>
-                <Carousel>
-                    <Carousel.Item>
+                <Rotate right>
+                <Row>
+                <Col className="white-text" xs="12" md={{ offset: 1 }}>
                         <img
                             style={{
-                                maxWidth: "100%",
+                                maxWidth: "50%",
                                 width: "auto",
                                 border: "5px black solid",
                                 borderRadius: "10px",
                             }}
                             src={Me}
                         />
-                    </Carousel.Item>
-                    <Carousel.Item>
+                    </Col>
+                </Row>
+                </Rotate>
+                <Rotate left>
+                <Row>
+                    <Col className="white-text" xs="3" md={{ offset: 3 }}>
+                        <h3>Nala</h3>
+                    </Col>
+                    <Col xs="9">
                         <img
                             style={{
-                                maxWidth: "100%",
+                                maxWidth: "50%",
                                 width: "auto",
                                 border: "5px black solid",
                                 borderRadius: "10px",
                             }}
                             src={Nala}
                         />
-                        <Carousel.Caption className="content">
-                            <h3 className="black-text text">Nala</h3>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
+                    </Col>
+                </Row>
+                </Rotate>
+                <Rotate right>                <Row>
+                    <Col className="white-text" xs="3" md={{ offset: 6 }}>
+                        <h3>Coeur d' Alene, Idaho</h3>
+                    </Col>
+                    <Col xs="9" md={{ offset:3}}>
                         <img
                             style={{
-                                maxWidth: "100%",
+                                maxWidth: "50%",
                                 width: "auto",
                                 border: "5px black solid",
                                 borderRadius: "10px",
                             }}
                             src={cda}
                         />
-                        <Carousel.Caption className="content">
-                            <h3 className="black-text text">
-                                Coeur d' Alene, Idaho
-                            </h3>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+                    </Col>
+                </Row>
+                </Rotate>
             </Container>
         );
     }

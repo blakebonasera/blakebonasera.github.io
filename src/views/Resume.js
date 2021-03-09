@@ -3,13 +3,13 @@ import "../App.css";
 import ResumePic from "../BlakeBonasera.Resume.jpg";
 import { Spring } from "react-spring/renderprops";
 import { Container, Row, Col } from "reactstrap";
+import Slide from 'react-reveal/Slide';
+
 
 const Resume = () => {
     return (
         <Container >
-            <Spring from={{opacity:0, marginBottom:-1000}} to={{opacity:1, marginBottom:0}} config={{delay: 100}}>
-                {(props) => (
-                    <div style={props}>
+            <Slide up>
                         <Row>
                             <Col xs="12">
                                 <img
@@ -30,9 +30,7 @@ const Resume = () => {
                             <br />
                             </Col>
                         </Row>
-                    </div>
-                )}
-            </Spring>
+                        </Slide>
         </Container>
     );
 };

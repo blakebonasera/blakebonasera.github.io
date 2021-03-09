@@ -15,7 +15,7 @@ const ForSale = () => {
                     <Container>
                         <Row>
                             <Col xs="12">
-                                <h3 className='text'>4 Sale</h3>
+                                <h3 className='text white-text'>4 Sale</h3>
                             </Col>
                         </Row>
                         <Row>
